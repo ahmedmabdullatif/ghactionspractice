@@ -17,5 +17,5 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v6.0.2
 
-        - name: List repo files
-         run: ls -la
+      - name: List repo files
+        run: ls -la
