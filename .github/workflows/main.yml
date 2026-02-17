@@ -1,0 +1,14 @@
+name: Build and Test Docker App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Welcome Message
+        run: echo 'Hello from Github Actions'
