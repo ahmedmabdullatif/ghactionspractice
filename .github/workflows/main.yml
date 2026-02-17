@@ -10,5 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      
       - name: Print Welcome Message
         run: echo 'Hello from Github Actions'
+
+      - name: Checkout Code
+        uses: actions/checkout@v6.0.2
+
+        - name: List repo files
+         run: ls -la
